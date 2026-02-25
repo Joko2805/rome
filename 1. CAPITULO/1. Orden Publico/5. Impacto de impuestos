@@ -1,1 +1,238 @@
+# 📜 CAPÍTULO I
+
+## 1.1 ORDEN PÚBLICO — IMPACTO DE IMPUESTOS
+
+Los impuestos no solo afectan ingresos.
+Afectan:
+
+* Orden Público inmediato
+* Crecimiento demográfico
+* Inmundicia futura (squalor)
+* Estabilidad estructural del imperio
+
+Un jugador veterano usa los impuestos como instrumento de ingeniería demográfica.
+
+---
+
+# I. MECÁNICA MATEMÁTICA DIRECTA
+
+Cada nivel de impuesto aplica un modificador fijo al Orden Público.
+
+| Nivel     | Penalización aproximada |
+| --------- | ----------------------- |
+| Muy bajos | 0%                      |
+| Bajos     | -5%                     |
+| Normales  | -10%                    |
+| Altos     | -20%                    |
+| Muy altos | -30%                    |
+
+Fórmula simple:
+
+```text
+Orden Público = 100 + Bonificadores - Penalización por impuestos - Otros factores
+```
+
+Este penalizador es inmediato y constante por turno.
+
+---
+
+# II. IMPUESTOS Y CRECIMIENTO POBLACIONAL
+
+Aquí está la parte estratégica.
+
+El nivel de impuestos afecta el crecimiento:
+
+| Nivel     | Impacto en crecimiento           |
+| --------- | -------------------------------- |
+| Muy bajos | +crecimiento alto                |
+| Bajos     | +crecimiento moderado            |
+| Normales  | neutro                           |
+| Altos     | crecimiento reducido             |
+| Muy altos | crecimiento casi nulo o negativo |
+
+Esto significa:
+
+```text
+Impuestos bajos hoy = más población mañana
+Impuestos altos hoy = freno demográfico
+```
+
+Y más población significa:
+
+* Más ingresos base
+* Pero más squalor futuro
+* Y más presión de orden público
+
+---
+
+# III. RELACIÓN CON INMUNDICIA (SQUALOR)
+
+El juego calcula squalor según:
+
+```text
+Crecimiento histórico acumulado
+```
+
+Si mantienes impuestos bajos durante 50 turnos:
+
+✔ Explosión demográfica
+✔ Más comercio
+❌ Aumento progresivo de squalor
+❌ Penalizador estructural difícil de revertir
+
+En campañas largas, esto se vuelve crítico.
+
+---
+
+# IV. IMPUESTOS COMO HERRAMIENTA ESTRATÉGICA
+
+## 🏛 Ciudad económica pequeña (0–6000 hab.)
+
+✔ Impuestos bajos o muy bajos
+✔ Priorizar crecimiento
+✔ Acelerar salto a ciudad grande
+
+Objetivo: masa crítica económica.
+
+---
+
+## 🏙 Ciudad grande (12k–20k)
+
+Aquí debes decidir:
+
+* ¿La quieres metrópolis?
+* ¿O quieres estabilizarla?
+
+Veteranos suelen subir impuestos a:
+
+```text
+Altos
+```
+
+para frenar crecimiento y evitar squalor descontrolado.
+
+---
+
+## 🏰 Ciudad recién conquistada
+
+Siempre:
+
+✔ Impuestos bajos los primeros 5–10 turnos
+✔ Reducir penalizador cultural
+✔ Evitar rebelión temprana
+
+Luego ajustar progresivamente.
+
+---
+
+# V. EJEMPLO MATEMÁTICO REAL
+
+Ciudad de 15.000 habitantes.
+
+Penalizadores:
+
+* Cultura: -20%
+* Tamaño: -10%
+* Squalor: -15%
+
+Total negativo: -45%
+
+---
+
+### Caso A: Impuestos normales (-10%)
+
+```text
+100 - 45 - 10 = 45%
+```
+
+Rebelión.
+
+---
+
+### Caso B: Impuestos bajos (-5%)
+
+```text
+100 - 45 - 5 = 50%
+```
+
+Aún peligroso.
+
+---
+
+### Caso C: Impuestos muy bajos (0%)
+
+```text
+100 - 45 = 55%
+```
+
+Más estable, pero aún necesita Leyes o guarnición.
+
+---
+
+Aquí se ve que impuestos son multiplicador de crisis.
+
+---
+
+# VI. EFECTO EN CAMPAÑAS LARGAS (150+ TURNOS)
+
+En imperios extensos:
+
+* Las ciudades núcleo deben tener impuestos optimizados.
+* Las fronteras pueden sacrificarse fiscalmente.
+* No todas las ciudades deben crecer indefinidamente.
+
+Estrategia avanzada:
+
+```text
+Ciudades económicas → crecer
+Ciudades militares → estabilizar
+Metrópolis problemáticas → frenar crecimiento
+```
+
+---
+
+# VII. ERROR COMÚN
+
+Muchos jugadores dejan:
+
+```text
+Impuestos muy bajos permanentemente
+```
+
+Resultado tras 100 turnos:
+
+* 30.000 habitantes
+* -25% squalor
+* Rebeliones constantes
+
+El crecimiento descontrolado mata imperios largos.
+
+---
+
+# VIII. PRINCIPIO ESTRATÉGICO DE VETERANO
+
+```text
+El impuesto no es solo ingreso.
+Es control demográfico.
+```
+
+El verdadero maestro no maximiza dinero inmediato.
+Optimiza estabilidad futura.
+
+---
+
+# IX. REGLA DE ORO
+
+✔ Bajo → crecer
+✔ Normal → estabilizar
+✔ Alto → frenar
+✔ Muy alto → emergencia económica
+
+---
+
+Si quieres, el siguiente subcapítulo puede ser:
+
+**1.1.4 Ingeniería demográfica avanzada: cómo manipular población e impuestos para evitar squalor estructural en campañas de 200 turnos.**
+
+Ahí entramos en nivel experto real.
 
