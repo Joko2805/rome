@@ -1,0 +1,263 @@
+Perfecto, Metax.
+Entramos en una de las mecánicas más mal entendidas — y más decisivas en campañas largas de **Rome: Total War Remastered**.
+
+---
+
+# 📜 CAPÍTULO I
+
+## 1.1 ORDEN PÚBLICO (PUBLIC ORDER) – INFLUENCIA CULTURAL
+
+La **influencia cultural** no es un simple modificador visible.
+Es un sistema dinámico que interactúa con:
+
+* Orden Público
+* Conversión religiosa
+* Riesgo de rebelión
+* Aparición de rebeldes culturales
+* Estabilidad a largo plazo
+
+---
+
+# I. ¿QUÉ ES LA INFLUENCIA CULTURAL?
+
+Cuando conquistas una ciudad, el juego compara:
+
+```text
+Cultura dominante actual (%) 
+vs 
+Cultura de tu facción
+```
+
+Si no coinciden, aparece el penalizador de:
+
+```text
+“Diferencia cultural”
+```
+
+Este penalizador puede iniciar entre:
+
+```
+-15% y -30%
+```
+
+Dependiendo de:
+
+* Diferencia entre culturas (romano vs griego es menor que romano vs bárbaro oriental)
+* Nivel de desarrollo previo
+* Templos existentes
+* Tiempo bajo dominio anterior
+
+---
+
+# II. MECÁNICA INTERNA REAL
+
+Cada ciudad tiene un valor interno llamado:
+
+```
+cultural_dominance
+```
+
+Este valor cambia por turno según:
+
+### 1️⃣ Templos activos
+
+Cada templo aporta puntos de conversión cultural.
+
+Ejemplo aproximado:
+
+| Nivel templo    | Conversión/turno |
+| --------------- | ---------------- |
+| Templo básico   | +0.5%            |
+| Templo medio    | +1%              |
+| Templo avanzado | +1.5%            |
+
+---
+
+### 2️⃣ Gobernador
+
+Un gobernador con rasgos de:
+
+* Piedad
+* Popularidad
+* Influencia
+
+Acelera conversión cultural.
+
+---
+
+### 3️⃣ Tiempo
+
+Cada turno reduce automáticamente el penalizador cultural entre:
+
+```
+0.5% y 1% por turno
+```
+
+Si no hay templos enemigos activos.
+
+---
+
+# III. FORMULACIÓN MATEMÁTICA SIMPLIFICADA
+
+El penalizador cultural visible se calcula aproximadamente así:
+
+```text
+Penalizador cultural =
+(Dominancia extranjera %) × factor cultural
+```
+
+Ejemplo:
+
+Si una ciudad tiene:
+
+* 80% cultura griega
+* 20% cultura romana
+
+El juego aplica algo cercano a:
+
+```
+80 × 0.3 ≈ -24%
+```
+
+Conforme la cultura romana sube, el penalizador baja proporcionalmente.
+
+---
+
+# IV. INTERACCIÓN CON TEMPLOS
+
+Aquí está el error más común.
+
+### 🔥 Destruir el templo enemigo:
+
+✔ Reduce resistencia cultural
+✔ Elimina fuente de conversión extranjera
+✔ Reduce lealtad a la antigua facción
+
+### 🛕 Construir templo propio:
+
+✔ Aumenta velocidad de romanización
+✔ Reduce penalizador cultural progresivamente
+✔ Mejora estabilidad permanente
+
+---
+
+# V. DIFERENCIAS SEGÚN CULTURA
+
+No todas las culturas reaccionan igual.
+
+### 🏛 Romano vs Griego
+
+* Conversión relativamente rápida
+* Penalizador inicial moderado
+
+### 🐺 Romano vs Bárbaro
+
+* Penalizador alto
+* Conversión lenta
+* Mayor probabilidad de rebelión cultural
+
+### 🏺 Romano vs Oriental
+
+* Penalizador muy alto
+* Requiere templos fuertes y guarnición inicial
+
+---
+
+# VI. INFLUENCIA CULTURAL Y REBELIONES
+
+Si el penalizador cultural se mantiene alto:
+
+* Aumenta riesgo de rebelión
+* Rebeldes pueden reaparecer con tropas de la cultura original
+* Puede surgir una facción revivida
+
+Especialmente en:
+
+* Grecia
+* Anatolia
+* Oriente
+
+---
+
+# VII. ESTRATEGIA DE VETERANO
+
+En campañas de 200+ turnos:
+
+### 🔹 Fase inicial tras conquista (0–10 turnos)
+
+* Impuestos bajos
+* 2–4 unidades de guarnición
+* Destruir templo enemigo
+* Iniciar templo propio inmediatamente
+
+### 🔹 Fase de estabilización (10–30 turnos)
+
+* Mejorar templo
+* Construir foro/basílica
+* Reducir presencia militar progresivamente
+
+### 🔹 Fase consolidada (30+ turnos)
+
+* Penalizador cultural ≈ 0%
+* Ciudad estable sin ejército permanente
+
+---
+
+# VIII. ERROR ESTRATÉGICO COMÚN
+
+Muchos jugadores mantienen tropas eternamente.
+
+Eso es parche.
+
+La verdadera estabilidad proviene de:
+
+```
+Ley + Conversión cultural
+```
+
+El ejército solo compra tiempo.
+
+---
+
+# IX. CASO PRÁCTICO
+
+Ciudad griega conquistada:
+
+Inicio:
+
+* Penalizador cultural: -25%
+
+Turno 10:
+
+* Templo romano nivel 2
+* Penalizador baja a -15%
+
+Turno 25:
+
+* Cultura romana dominante
+* Penalizador ≈ -5%
+
+Turno 40:
+
+* Penalizador desaparece
+
+La ciudad pasa de inestable a núcleo económico.
+
+---
+
+# X. PRINCIPIO MAESTRO
+
+En imperios extensos:
+
+```
+Cultura fuerte = Imperio estable
+Ejército fuerte sin cultura = Imperio frágil
+```
+
+---
+
+Si quieres, el siguiente subcapítulo puede ser:
+
+**1.1.1 Conversión cultural avanzada y manipulación estratégica en campañas largas (cómo acelerar la romanización y evitar rebeliones estructurales).**
+
+Ahí entramos en nivel experto real.
