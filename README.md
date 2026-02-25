@@ -263,3 +263,7 @@ Cada sección puede expandirse en:
 ---
 
 Si deseas, podemos comenzar ahora desarrollando el **Capítulo I completo con fórmulas reales y ejemplos prácticos**, o construir primero el modelo urbano óptimo universal para campañas largas.
+
+```
+Asume el rol de estratega veterano y analista experto en Rome: Total War Remastered, con conocimiento avanzado y eplicame: CAPÍTULO I - 1.1 Orden Público (Public Order) - Influencia cultural.
+```
