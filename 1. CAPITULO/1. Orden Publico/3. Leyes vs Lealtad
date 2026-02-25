@@ -1,0 +1,240 @@
+# 📜 CAPÍTULO I
+
+## 1.1 ORDEN PÚBLICO — LEYES vs LEALTAD
+
+---
+
+# I. DEFINICIÓN ESTRUCTURAL
+
+## 🏛 LEYES (LAW)
+
+Es un modificador **estructural y permanente**.
+
+Proviene de:
+
+* Foros → Basílicas → Curias
+* Algunos templos
+* Rasgos administrativos del gobernador
+* Seguidores tipo escriba/jurista
+
+Funciona como:
+
+```text
+Control institucional del Estado
+```
+
+Reduce criminalidad y corrupción local.
+
+---
+
+## 👑 LEALTAD (LOYALTY / INFLUENCE)
+
+Es un modificador **personal y dependiente del gobernador**.
+
+Proviene de:
+
+* Autoridad del general
+* Popularidad
+* Rasgos carismáticos
+* Seguidores
+* Eventos políticos
+
+Funciona como:
+
+```text
+Confianza del pueblo en el líder actual
+```
+
+---
+
+# II. DIFERENCIA MATEMÁTICA INTERNA
+
+### 🔹 Leyes
+
+Se aplican como bonificador fijo y estable:
+
+```text
+Orden Público = 100 + Law + ...
+```
+
+No fluctúan por turno (salvo destrucción de edificios).
+
+---
+
+### 🔹 Lealtad
+
+Se recalcula cada turno según:
+
+* Rasgos cambiantes
+* Edad del general
+* Eventos
+* Distancia a capital
+* Intrigas del Senado (si eres romano)
+
+Puede variar rápidamente.
+
+---
+
+# III. COMPARACIÓN FUNCIONAL
+
+| Factor                     | Leyes      | Lealtad                              |
+| -------------------------- | ---------- | ------------------------------------ |
+| Estabilidad permanente     | ✅ Alta     | ❌ Depende del gobernador             |
+| Escala con tamaño ciudad   | ✅ Muy bien | ⚠ Pierde impacto en ciudades grandes |
+| Afecta corrupción          | ✅ Sí       | ❌ No directamente                    |
+| Sirve sin gobernador       | ❌ No       | ❌ No                                 |
+| Riesgo al morir el general | ❌ Ninguno  | ⚠ Alto                               |
+
+---
+
+# IV. EFECTO EN CIUDADES GRANDES
+
+Aquí está el punto crítico.
+
+En ciudades pequeñas:
+
+* Lealtad puede aportar +10–20% fácilmente.
+* Puede compensar impuestos altos.
+
+En metrópolis (20k–30k+ habitantes):
+
+* La presión demográfica y squalor escalan.
+* La Lealtad ya no compensa sola.
+* Solo Leyes + templos fuertes estabilizan.
+
+Por eso:
+
+```text
+Lealtad es poder personal.
+Leyes es poder institucional.
+```
+
+Y los imperios largos necesitan instituciones.
+
+---
+
+# V. INTERACCIÓN CON CULTURA
+
+En ciudades recién conquistadas:
+
+* Lealtad puede estabilizar los primeros 10–15 turnos.
+* Leyes aceleran normalización permanente.
+
+Si dependes solo de Lealtad:
+
+Cuando el gobernador muere…
+
+```text
+Rebelión inmediata.
+```
+
+Error clásico.
+
+---
+
+# VI. EJEMPLO PRÁCTICO
+
+Ciudad grande (15.000 habitantes).
+
+Penalizadores:
+
+* Cultura: -20%
+* Impuestos normales: -10%
+* Tamaño: -10%
+* Squalor: -15%
+
+Total negativo: -55%
+
+---
+
+### Caso A: Gobernador carismático (+20% Lealtad), pocas leyes (+5%)
+
+```text
+100 + 25 - 55 = 70%
+```
+
+Estable pero frágil.
+
+Muere el gobernador:
+
+```text
+100 + 5 - 55 = 50%
+```
+
+Rebelión casi segura.
+
+---
+
+### Caso B: Basílica (+15% Law), templo (+10%), gobernador moderado (+10%)
+
+```text
+100 + 35 - 55 = 80%
+```
+
+Si muere el gobernador:
+
+```text
+100 + 25 - 55 = 70%
+```
+
+Ciudad sigue estable.
+
+---
+
+# VII. IMPACTO EN CAMPAÑAS 200+ TURNOS
+
+En campañas largas:
+
+* Generales envejecen.
+* Rasgos negativos aparecen.
+* Muertes son inevitables.
+
+Si tu imperio depende de Lealtad, es inestable.
+
+Los jugadores veteranos priorizan:
+
+```text
+1️⃣ Leyes estructurales
+2️⃣ Conversión cultural
+3️⃣ Lealtad como apoyo temporal
+```
+
+---
+
+# VIII. CUÁNDO PRIORIZAR CADA UNO
+
+### 🏛 Ciudad económica
+
+✔ Priorizar Leyes.
+✔ Gobernador estable pero no indispensable.
+
+---
+
+### ⚔ Ciudad fronteriza o recién conquistada
+
+✔ Lealtad ayuda en fase inicial.
+✔ Después reemplazar con infraestructura legal.
+
+---
+
+### 🏙 Metrópolis
+
+✔ Leyes son obligatorias.
+✔ Lealtad es complemento.
+
+---
+
+# IX. PRINCIPIO ESTRATÉGICO MAESTRO
+
+```text
+Lealtad mantiene la ciudad hoy.
+Leyes mantienen el imperio mañana.
+```
+
+---
+
+Si quieres, el siguiente subapartado puede ser:
+
+**1.1.2 Sinergia entre Leyes, Cultura e Inmundicia en metrópolis avanzadas (nivel experto real de control imperial).**
+
+Ahí entramos en mecánicas que casi nadie explota correctamente.
