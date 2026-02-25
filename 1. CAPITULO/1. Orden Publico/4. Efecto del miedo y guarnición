@@ -1,0 +1,241 @@
+# 📜 CAPÍTULO I
+
+## 1.1 ORDEN PÚBLICO — EFECTO DEL MIEDO Y GUARNICIÓN
+
+Muchos jugadores creen que la estabilidad por tropas es simplemente “más unidades = más orden”.
+Eso es una simplificación. El sistema es más técnico.
+
+---
+
+# I. GUARNICIÓN — REPRESIÓN MILITAR
+
+Cada unidad dentro de la ciudad genera un valor interno llamado:
+
+```text
+garrison repression
+```
+
+Ese valor se traduce en porcentaje visible como:
+
+```text
+“Guarnición” +X%
+```
+
+---
+
+## 🧮 ¿Cómo se calcula?
+
+Cada unidad tiene un valor base de represión según:
+
+* Tipo de tropa
+* Tamaño de la unidad
+* Experiencia
+* Tipo cultural
+
+Aproximación funcional:
+
+| Tipo de unidad                     | Valor típico |
+| ---------------------------------- | ------------ |
+| Milicia ligera                     | 2–3%         |
+| Infantería media                   | 4–5%         |
+| Infantería pesada                  | 5–7%         |
+| Élite (cohortes urbanas, guardias) | 6–8%         |
+
+⚠ No escala infinito.
+
+Hay rendimiento decreciente.
+
+---
+
+## 📉 Rendimiento decreciente
+
+El motor aplica una especie de “soft cap”.
+
+Ejemplo práctico:
+
+* 1 unidad pesada → +6%
+* 3 unidades → +18%
+* 6 unidades → no da +36%, suele dar ~+28–30%
+
+Esto evita que puedas estabilizar metrópolis solo con ejército.
+
+---
+
+# II. EFECTO DEL MIEDO (DREAD)
+
+Aquí está la parte avanzada.
+
+Un general puede tener dos perfiles:
+
+```text
+Chivalry (Caballerosidad)
+o
+Dread (Miedo)
+```
+
+El miedo afecta directamente la represión.
+
+---
+
+## 😈 ¿Qué hace el Dread?
+
+Un general con Dread alto:
+
+✔ Aumenta la efectividad represiva de las tropas.
+✔ Incrementa el bonus de guarnición.
+✔ Reduce riesgo inmediato de rebelión.
+
+Internamente:
+
+```text
+Repression efectiva = Repression base × modificador de Dread
+```
+
+Un general con Dread alto puede convertir:
+
+* +20% guarnición
+  en
+* +30% o más efectivos
+
+---
+
+## 👑 ¿Cómo se obtiene Dread?
+
+* Exterminar poblaciones
+* Ejecutar prisioneros
+* Rasgos crueles
+* Ciertos seguidores
+
+---
+
+# III. DIFERENCIA ENTRE MIEDO Y LEALTAD
+
+Importante:
+
+| Mecánica | Qué hace            |
+| -------- | ------------------- |
+| Lealtad  | La gente te apoya   |
+| Miedo    | La gente te obedece |
+
+En términos prácticos:
+
+```text
+Lealtad estabiliza
+Miedo reprime
+```
+
+---
+
+# IV. CUÁNDO USAR CADA UNO
+
+## 🏙 Ciudad recién conquistada
+
+✔ General con alto Dread
+✔ 3–5 unidades pesadas
+✔ Impuestos bajos
+
+Resultado: estabilidad inmediata.
+
+---
+
+## 🏛 Ciudad núcleo económico
+
+✖ No necesitas Dread alto
+✔ Leyes + Cultura + infraestructura
+
+Demasiado Dread puede incluso afectar crecimiento si el gobernador tiene rasgos negativos.
+
+---
+
+# V. INTERACCIÓN CON TAMAÑO DE CIUDAD
+
+En ciudades pequeñas:
+
+* 2 unidades + general con Dread = suficiente.
+
+En metrópolis (20k+):
+
+* El efecto del ejército pierde peso relativo.
+* Squalor y demografía superan represión militar.
+
+Aquí se cumple la regla veterana:
+
+```text
+El ejército compra tiempo.
+La infraestructura compra estabilidad.
+```
+
+---
+
+# VI. ERROR ESTRATÉGICO COMÚN
+
+Muchos jugadores dejan 8–10 unidades permanentemente en ciudades grandes.
+
+Problemas:
+
+* Coste de mantenimiento alto.
+* Unidades inactivas.
+* No resuelve squalor ni cultura.
+
+Es parche caro.
+
+---
+
+# VII. EJEMPLO MATEMÁTICO
+
+Ciudad grande:
+
+Penalizadores totales: -60%
+
+### Caso A: Sin Dread
+
+* 4 unidades pesadas → +22%
+  Resultado:
+
+```text
+100 + 22 - 60 = 62%
+```
+
+Inestable.
+
+---
+
+### Caso B: General con alto Dread
+
+* 4 unidades pesadas → +30%
+
+```text
+100 + 30 - 60 = 70%
+```
+
+Estable temporalmente.
+
+Pero si el general se va…
+
+Rebelión.
+
+---
+
+# VIII. ESTRATEGIA AVANZADA DE CAMPAÑA LARGA
+
+🔹 Usa generales con Dread como “bomberos” de estabilidad.
+🔹 Tras 10–20 turnos, reemplaza represión militar por Leyes y templos.
+🔹 No conviertas ciudades económicas en cárceles militares.
+🔹 En fronteras rebeldes, el miedo es herramienta estratégica.
+
+---
+
+# IX. PRINCIPIO MAESTRO
+
+```text
+El miedo controla masas.
+Las leyes controlan imperios.
+```
+
+---
+
+Si quieres, el siguiente subcapítulo puede ser:
+
+**1.1.3 Interacción avanzada entre Miedo, Cultura y Squalor en metrópolis rebeldes (nivel experto real de manipulación imperial).**
+
+Ahí entramos en mecánicas que casi nadie domina.
